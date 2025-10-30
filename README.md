@@ -6,6 +6,8 @@ The project uses a relational database for managing users, doctors, patients, ap
 
 - **ER Diagram:** [View ERD](database/healthline_erd.png)
 - **Database Schema:** [View Schema](database/healthline_dump.sql)
+- **Entity Relationship Documentation:** [View Documentation](database/Entity_Relationship_Documentation.pdf)
+
 
 ### Entities Overview
 - **User:** Stores authentication and role information.
