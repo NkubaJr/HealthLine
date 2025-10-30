@@ -5,7 +5,7 @@ HealthLine Booking system
 The project uses a relational database for managing users, doctors, patients, appointments, and lab results.
 
 - **ER Diagram:** [View ERD](database/healthline_erd.png)
-- **Database Schema:** [schema.sql](database/schema.sql)
+- **Database Schema:** [healthline.sql](database/healthline_dump.sql)
 
 ### Entities Overview
 - **User:** Stores authentication and role information.
