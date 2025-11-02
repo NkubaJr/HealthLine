@@ -9,7 +9,7 @@ The project uses a relational database for managing users, doctors, patients, ap
 - **Entity Relationship Documentation:** [View Documentation](database/entity_relationship_documentation.pdf)
 
 
-# *Entities Overview*
+# **Entities Overview**
 
 - **User:** Stores authentication details and manages user roles
 
