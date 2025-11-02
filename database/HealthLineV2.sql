@@ -1,7 +1,7 @@
 PRAGMA foreign_keys=ON;
 BEGIN TRANSACTION;
 CREATE TABLE User (
-    user_id TEXT PRIMARY KEY, -- UUID recommended
+    user_id TEXT PRIMARY KEY, 
     username TEXT NOT NULL UNIQUE,
     password_hash TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
