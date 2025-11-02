@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthLine - Book Appointment</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Appointment</h1>
+        <form id="bookForm">
+            <label>Facility:</label>
+            <select id="facility" required>
+                <option value="">Select Facility</option>
+                <option value="Kimironko Health Center">Kimironko Health Center</option>
+                <option value="Bumbogo Health Center">Bumbogo Health Center</option>
+            </select>
+            <label>Date:</label>
+            <input type="date" id="date" required>
+            <label>Time:</label>
+            <input type="time" id="time" required>
+            <button type="submit">Book</button>
+        </form>
+        <p id="bookMsg"></p>
+        <a href="dashboard.html">Back to Dashboard</a>
+    </div>
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
