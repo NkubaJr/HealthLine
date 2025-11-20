@@ -1,5 +1,5 @@
 # app/models.py
-from datetime import datetime
+import datetime as dt
 from sqlalchemy import (
     Column, Integer, String, Boolean, DateTime,
     ForeignKey, Text
@@ -71,10 +71,13 @@ class Appointment(Base):
     patient_id = Column(Integer, ForeignKey("patients.id", ondelete="CASCADE"))
     doctor_id = Column(Integer, ForeignKey("doctors.id", ondelete="SET NULL"))
     facility_id = Column(Integer, ForeignKey("facilities.id", ondelete="SET NULL"))
+
+    # This is fine – attribute name is "datetime"
     datetime = Column(DateTime, nullable=False)
-    status = Column(String, default="booked")   # booked, checked_in, completed, cancelled
+
+    status = Column(String, default="booked")
     reason = Column(Text)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=dt.datetime.utcnow)
 
     patient = relationship("Patient", back_populates="appointments")
     doctor = relationship("Doctor", back_populates="appointments")
@@ -91,7 +94,7 @@ class LabResult(Base):
     file_url = Column(Text, nullable=True)
     access_token = Column(String, nullable=True)
     token_expires_at = Column(DateTime, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=dt.datetime.utcnow)
 
     appointment = relationship("Appointment", back_populates="lab_result")
 
@@ -104,3 +107,4 @@ class OtpCode(Base):
     code = Column(String, nullable=False)
     expires_at = Column(DateTime, nullable=False)
     is_used = Column(Boolean, default=False)
+
