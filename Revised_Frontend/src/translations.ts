@@ -2,7 +2,7 @@ export const translations = {
   en: {
     // Welcome/Landing
     welcome: 'Welcome to HealthLine Rwanda',
-    tagline: 'Book appointments, access lab results, and manage your healthcare digitally',
+    tagline: 'Book appointments, Access lab results, and manage your healthcare digitally',
     login: 'Login',
     signup: 'Sign Up',
     
@@ -128,8 +128,8 @@ export const translations = {
   },
   rw: {
     // Welcome/Landing
-    welcome: 'Murakaza neza kuri HealthLine Rwanda',
-    tagline: 'Shiraho gahunda yo kubonana n\'abavuzi, kureba ibisubizo by\'ibizamini, no kuyobora ubuzima bwawe mu buryo bwa digitale',
+    welcome: 'Murakaza neza muri HealthLine Rwanda',
+    tagline: 'Andikisha gahunda n\'abavuzi, kureba ibisubizo by\'ibizamini, no menya ibijyanye nubuzima mu buryo bwikoranabuhanga',
     login: 'Injira',
     signup: 'Iyandikishe',
     
@@ -147,12 +147,12 @@ export const translations = {
     enterOTP: 'Injiza OTP',
     
     // Dashboard
-    dashboard: 'Ikibanza',
+    dashboard: 'Ahabanza',
     nextAppointment: 'Gahunda ikurikira',
-    bookAppointment: 'Shiraho gahunda',
+    bookAppointment: 'Andikisha gahunda',
     viewLabResults: 'Reba ibisubizo by\'ibizamini',
     updateProfile: 'Kuvugurura umwirondoro',
-    findFacility: 'Shakisha ikigo cy\'ubuzima',
+    findFacility: 'Shakisha ikigo cy\'ubuzima kikwegereye',
     myAppointments: 'Gahunda zanjye',
     logout: 'Sohoka',
     
@@ -192,7 +192,7 @@ export const translations = {
     testDate: 'Itariki y\'ikizamini',
     status: 'Uko bimeze',
     viewResult: 'Reba igisubizo',
-    downloadPDF: 'Pakurura PDF',
+    downloadPDF: 'Nyohereza PDF',
     normal: 'Bisanzwe',
     abnormal: 'Ntabwo bisanzwe',
     pending: 'Birategereza',
@@ -232,7 +232,7 @@ export const translations = {
     resultsHistory: 'Amateka y\'ibisubizo',
     
     // Front Desk
-    checkInQueue: 'Kwemeza ko yaje & Umurongo',
+    checkInQueue: 'Kwemeza ko yaje ku Umurongo',
     searchPatient: 'Shakisha umurwayi',
     patientPhone: 'Telefoni y\'umurwayi',
     queuePosition: 'Umwanya mu murongo',
@@ -247,7 +247,7 @@ export const translations = {
     back: 'Subira inyuma',
     next: 'Komeza',
     close: 'Funga',
-    loading: 'Irapakurwa...',
+    loading: 'tegereza...',
     error: 'Ikosa',
     success: 'Byakunze',
     male: 'Gabo',
