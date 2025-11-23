@@ -26,7 +26,7 @@ export default function DoctorDashboard() {
     {
       id: 1,
       time: '08:00 AM',
-      patientName: 'John Doe',
+      patientName: 'Tifare Kaseke',
       patientId: 'P001',
       age: 35,
       gender: 'Male',

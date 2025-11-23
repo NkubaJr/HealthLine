@@ -28,7 +28,7 @@ export default function LabTechDashboard() {
     {
       id: 1,
       appointmentId: 'A001',
-      patientName: 'John Doe',
+      patientName: 'Tifare Kaseke',
       testType: 'Complete Blood Count',
       requestDate: '2025-11-09',
       doctor: 'Dr. Uwase Marie',

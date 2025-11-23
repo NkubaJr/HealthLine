@@ -38,7 +38,7 @@ export default function FrontDeskDashboard() {
   const [queue, setQueue] = useState([
     {
       id: 1,
-      patientName: 'John Doe',
+      patientName: 'Tifare Kaseke',
       phone: '+250 788 123 456',
       appointmentTime: '08:00 AM',
       provider: 'Dr. Uwase Marie',
@@ -72,7 +72,7 @@ export default function FrontDeskDashboard() {
     {
       id: 1,
       time: '08:00 AM',
-      patientName: 'John Doe',
+      patientName: 'Tifare Kaseke',
       provider: 'Dr. Uwase Marie',
       status: 'waiting',
     },

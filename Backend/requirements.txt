@@ -3,7 +3,7 @@ uvicorn[standard]
 sqlalchemy
 psycopg2-binary
 python-dotenv
-passlib[bcrypt]
+passlib[CryptContext]
 python-jose[cryptography]
 twilio
 africastalking

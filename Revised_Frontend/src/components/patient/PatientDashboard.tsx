@@ -53,7 +53,7 @@ export default function PatientDashboard() {
       {/* Welcome Section */}
       <div className="mb-8">
         <h2 className="text-gray-900 dark:text-gray-100 mb-1">
-          {language === 'en' ? 'Welcome back, John!' : 'Murakaza neza, John!'}
+          {language === 'en' ? 'Welcome back, Tifare!' : 'Murakaza neza, Tifare!'}
         </h2>
         <p className="text-gray-600 dark:text-gray-400">
           {language === 'en' ? 'How can we help you today?' : 'Twakugirira iki uyu munsi?'}

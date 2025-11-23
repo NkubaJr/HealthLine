@@ -17,13 +17,13 @@ import { toast } from 'sonner';
 
 export default function UpdateProfile() {
   const { language, setCurrentScreen } = useApp();
-  const [fullName, setFullName] = useState('John Doe');
+  const [fullName, setFullName] = useState('Tifare Kaseke');
   const [phone, setPhone] = useState('+250 788 123 456');
-  const [email, setEmail] = useState('john.doe@example.com');
+  const [email, setEmail] = useState('t.kaseke@alustudent.com.com');
   const [address, setAddress] = useState('Kigali, Gasabo, Remera');
   const [nationalId, setNationalId] = useState('1199080012345678');
-  const [dateOfBirth, setDateOfBirth] = useState('1990-01-15');
-  const [gender, setGender] = useState('male');
+  const [dateOfBirth, setDateOfBirth] = useState('2004-07-25');
+  const [gender, setGender] = useState('female');
   const [bloodType, setBloodType] = useState('O+');
 
   // Password change
